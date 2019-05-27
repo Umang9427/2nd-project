@@ -1,0 +1,140 @@
+nav, header, footer{
+    display: block;
+}
+body{
+    line-height: 1;
+    margin: 0;
+    margin-left: 7px;    
+}
+nav{
+    width: 100%;
+    margin: 0;
+}
+nav ul{
+  background-color: #eee;
+  overflow: hidden;
+  margin:0;
+  padding: 0;
+}
+
+ul.top li{
+    list-style: none;
+    float: left;
+}
+ul.top li.right{
+    float: right;
+}
+ul.top li a{
+    text-decoration: none;
+    display: block;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+ul.top li a:hover{
+    background-color: #0000ff;
+    color:#fff;
+}
+ul.top li.dropdown {
+    display: none;
+}
+@media screen and (max-width: 680px) {
+    ul.top li:not(:nth-child(1)) {
+        display: none;
+    }
+    ul.top li.dropdown {
+        display: block;
+        float: right;
+    }
+    .col-6{
+        width: 100%;
+        margin: 0;
+    }
+    .col-6, col {
+        margin: 10px;
+    }
+}
+ul.top.response li.dropdown{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+ul.top.respone {
+     position: relative;
+}
+ul.top.response li {
+    display: inline;
+    float: none;  
+}
+ul.top.response li a {
+    display: block;
+    text-align: left; 
+}
+
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+#gradient {
+    background: #076DFF;    
+    background: -webkit-linear-gradient(#076DFF,#65a5ff); 
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-6{
+    margin-left: 7px;
+}
+.col{
+    margin-left: 50px;
+}
+.large {
+    margin: 0;
+    font-size: 58px;
+    color: #fff;
+}
+input[] {
+font-size: 20px;
+width: 400px;
+min-width: 100px;
+padding: 5px;
+
+}
+.header {
+    font-size: 68px;
+    text-align: center;
+    
+}
+.box {
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+}

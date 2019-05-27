@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Alpha Q</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    
+    <body>
+                
+    <Nav>
+        <ul class ="top" id="click">
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contacts">Contacts</a></li> 
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="right"><a href="#signup">Signup</a></li>
+            <li class="right"><a href="#signin  ">Signin</a></li>
+            <li class ="dropdown" ><a href="javascript:void(0);" onclick="dropmenu()">&#9776;</a></li>
+        </ul>
+    </Nav>
+    
+    <div class="container" id="gradient">
+        <div class="row">
+            <div class="col-6"> 
+                <div>
+                <h1 class="large"> Bye low world</h1>
+                <h1 class="large"> Good Bye. </h1>
+                </div>
+                <form>
+                    <div>
+                        <h2> Username </h2>
+                        <input class="input" name="username" type="text" placeholder="Username"> 
+                        
+                        <h2> DOB </h2>
+                        <input class="input" name="dob" type="d ate" placeholder="DOB"> 
+
+                    </div>
+                </form>
+            </div>
+            <div class="col">
+                <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/d4Zb4f4rnL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        
+    </div>    
+        
+    <h1> New Dicovery!!</h1>
+    <h3> Don't Be Mean</h3>
+    <br>
+    <hr>  
+    <p> Come Find your new imagination with <b>premium</b> letters 
+    </p>
+        
+    <script>
+        function dropmenu(){
+            var x = document.getElementById("click");
+            if(x.className==="top"){
+                x.className += " response"; 
+            }else {
+                x.className = "top";
+            }
+        }   
+    </script>
+    
+    <header>
+        <h1 class="header"> The standards of Awesome </h1>    
+    </header> 
+        
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                
+                </div>        
+            </div>
+        </div>
+    </div>    
+        
+    <div>
+        <h1>Percentage Calculators</h1>
+        <form id="xy">
+            <input type="text" id="num1"> is what % of 
+            <input type="text" id="num2"> ? <br><br>
+            <input type="submit" value="Calculate">
+        </form>
+    </div>  
+    <script type="text/javascript" src="javascript.js"></script>    
+ </body>    
+</html>
+
