@@ -1,17 +1,22 @@
 nav, header, footer{
     display: block;
 }
+.color{
+    background-color: #101010; 
+    color: white;
+}
 body{
     line-height: 1;
     margin: 0;
-    margin-left: 7px;    
+    margin-left: 7px; 
+
 }
 nav{
     width: 100%;
     margin: 0;
 }
 nav ul{
-  background-color: #eee;
+  background-color: black;
   overflow: hidden;
   margin:0;
   padding: 0;
@@ -132,9 +137,22 @@ padding: 5px;
 .header {
     font-size: 68px;
     text-align: center;
+    color: white;
     
 }
 .box {
-    background-color: white;
+    : white;
     box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+}
+#xy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%
+}
+#num1 {
+    display: block;
+}
+#num2 {
+    display: block;
 }
